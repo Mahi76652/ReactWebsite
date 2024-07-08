@@ -1,0 +1,59 @@
+ /* Custom styles for this template */
+ body {
+    padding-top: 56px;
+    background-color: #1a1a1a; /* Dark background */
+}
+.navbar {
+    background-color: #ec0b0b; /* Black navbar */
+}
+.navbar-brand {
+    color: #ff0000; /* Red brand text */
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #ff0000; /* Red nav links */
+    font-weight: bold;
+}
+.navbar-logo {
+    height: 80px; /* Adjust height as needed */
+    width: 80px; /* Ensure width and height are equal for a perfect circle */
+    border-radius: 30%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the container properly */
+}
+
+.jumbotron {
+    background-color: #000000; /* Black jumbotron */
+    color: #ff0000; /* Red text */
+    padding: 2rem 1rem;
+}
+.btn-primary {
+    background-color: #ff0000; /* Red button */
+    border-color: #ff0000; /* Red button border */
+}
+.card {
+    margin-bottom: 30px;
+    background-color: #1a1a1a; /* Dark card background */
+    border: 1px solid #ff0000; /* Red card border */
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: bold;
+    color: #ff0000; /* Red card title */
+}
+.card-text {
+    color: #cccccc; /* Light grey card text */
+}
+
+
+.footer {
+    background-color: #000000; /* Black footer */
+    color: #ff0000; /* Red footer text */
+    padding: 20px 0;
+    text-align: center;
+}
+.nav-item.active .nav-link {
+    color: #ffffff; /* White active link */
+}
